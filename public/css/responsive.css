@@ -1,0 +1,393 @@
+@media screen and (max-width: 360px) {
+  .field-button-full i {
+    transform: translate(-156px, 19px) !important;
+  }
+
+  .age-confirm input {
+    width: 60px !important;
+  }
+
+  .top-left p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .field-button-full i {
+    transform: translate(-204px, 19px);
+  }
+
+  .form-field-flex span {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .dual-width {
+    margin: 15px 0 !important;
+  }
+
+  .footer-center .tag-list-footer ul {
+    flex-wrap: wrap;
+  }
+
+  .search-flights .set-text {
+    padding: 0;
+  }
+
+  input.number {
+    width: 115px;
+  }
+
+  .value-button {
+    width: 25px;
+    height: 30px;
+    padding: 4px 0;
+  }
+
+  .sign-container {
+    padding: 0px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .field-button-full i {
+    transform: translate(-372px, 19px) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* HEADER */
+
+  .top-head-flex {
+    flex-direction: column;
+  }
+
+  .top-left {
+    margin-bottom: 10px;
+  }
+
+  /* FOOTER */
+
+  .footer-top form {
+    width: 100%;
+  }
+
+  .section {
+    padding: 50px 0;
+  }
+
+  .stay-connected {
+    flex-direction: column;
+  }
+
+  .stay-connected .footer-social {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .stay-connected .footer-social ul {
+    margin-top: 10px;
+  }
+
+  /* INDEX */
+
+  .bg {
+    height: 21vh;
+
+    background-size: 100%;
+  }
+
+  .search-flights {
+    padding: 60px 10px;
+  }
+
+  .no-padding {
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  .popular-flights {
+    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+
+  .orders {
+    order: 2;
+  }
+
+  .order1 {
+    order: 1;
+  }
+
+  .section-dark {
+    padding: 60px 40px;
+  }
+
+  .gallery img {
+    height: 150px;
+  }
+
+  /* GUIDES */
+
+  .section-bg {
+    background-position: center;
+  }
+
+  .usefull-links ul {
+    column-count: 2;
+  }
+
+  /* SERVICES */
+
+  .section-right .about-bg {
+    transform: translate(15px, 95px);
+    background-position: center !important;
+    right: 123px;
+  }
+
+  .service-box-des {
+    padding: 40px;
+  }
+
+  .service-box {
+    box-shadow: 0px 4px 8px 0px #787878;
+  }
+
+  .contact-box,
+  .box,
+  .icon-box {
+    margin-bottom: 30px;
+  }
+
+  /* CONTACT FORM */
+
+  .contact-map iframe {
+    height: 1000px;
+  }
+
+  .contact-map .contact-form {
+    max-width: 404px;
+    transform: translate(3%, 20%);
+    padding: 40px;
+  }
+
+  /* ABOUT */
+
+  .about-des {
+    margin-bottom: 2rem;
+  }
+
+  /* SIGN IN */
+
+  .sign-left {
+    padding: 16px 40px;
+  }
+  .sign-right {
+    display: none;
+  }
+
+  .field-button-full i {
+    transform: translate(-204px, 19px);
+  }
+
+  .section-sign {
+    margin: 204px 0;
+  }
+
+  .remember-pass {
+    align-items: normal;
+  }
+
+  /* EDIT PROFILE */
+
+  .tabs-left,
+  .tabs-right {
+    width: 100%;
+  }
+
+  .edit-profile {
+    flex-direction: column;
+  }
+
+  .tabs-left {
+    height: 200px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    position: static;
+  }
+
+  .tabs-btn {
+    width: 40%;
+    padding: 0;
+    height: 30%;
+  }
+
+  .tabs-btn {
+    font-size: 14px;
+  }
+
+  .p-history-head form {
+    flex-direction: column;
+  }
+
+  .p-history-head input,
+  .p-history-head select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .p-history-head input[type="number"] {
+    width: 50%;
+  }
+
+  /* FLIGHTS */
+
+  .top-airlines {
+    margin-bottom: 25px;
+  }
+
+  .flights-listing,
+  .flights-destiny {
+    flex-direction: column;
+  }
+
+  /* CHECKOUT */
+
+  .checkout-left {
+    padding: 40px 3%;
+  }
+
+  .checkout-right {
+    padding: 40px 20px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .box-des{
+    height: 636px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .bg {
+    height: 38vh;
+  }
+  .box-des{
+    height: 636px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .bg {
+    height: 54vh;
+  }
+
+  .section-right .about-bg {
+    transform: translate(-144px, 68px);
+    right: 0;
+    background-position: center;
+  }
+
+  .section-left {
+    padding: 100px 15% 100px 5%;
+  }
+
+  .section-bg {
+    background-position: center;
+  }
+
+  .sign-left {
+    padding: 20px;
+  }
+
+  .custom-width {
+    width: 33.33333333%;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  .sign-right {
+    display: none;
+  }
+
+  .field-button-full i {
+    transform: translate(-388px, 19px) !important;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .section-right .about-bg {
+    transform: translate(-114px, 68px);
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1200px) {
+  .review-slide .slide-person:before {
+    transform: translate(-131px, 59px);
+  }
+}
+
+@media screen and (max-width: 1299px) and (min-width: 992px) {
+  .review-slide .slide-person:before {
+    transform: translate(-71px, 59px);
+    width: 168px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .slick-prev,
+  .slick-next {
+    top: 471px !important;
+    left: 50%;
+  }
+
+  .slick-prev {
+    left: 40%;
+  }
+
+  .slick-next {
+    left: 50%;
+  }
+
+  .review-slide i {
+    font-size: 5rem;
+    top: 0px;
+  }
+
+  .review-slide {
+    flex-direction: column;
+  }
+
+  .review-slide p {
+    flex-basis: 0;
+  }
+
+  .slide-person {
+    margin-top: 30px;
+  }
+
+  .review-slide .slide-person:before {
+    transform: translate(-56px, 59px);
+  }
+
+  .section-top {
+    margin-top: 32rem;
+  }
+
+  .section-bottom {
+    margin-bottom: 32rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .age-confirm input {
+    width: 85px;
+  }
+
+  .section-sign {
+    margin: 140px 0;
+  }
+}

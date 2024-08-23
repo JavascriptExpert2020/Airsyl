@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="icon" href="./images/Airhub Final logo.jpeg" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Air Booking Website Use to create Booking for International and National Flights. Bangladesh Website for Booking Tickets Online."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/slick/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/slick/slick/slick-theme.css"
+    />
+    <title>AirSyl</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.js"></script>
+    <script
+      type="text/javascript"
+      src="vendor/slick/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      //    <!--Start of Tawk.to Script-->
+      //<script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/626a46d87b967b11798ce5fc/1g1ni9g9u";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+      //  // <!--End of Tawk.to Script-->
+      //   $(document).ready(function(){
+      //   $('.slick-slider').slick({
+      //    infinite: true,
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1,
+      //     arrows:true,
+
+      //    });
+      //   });
+
+      /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+      function dropDown() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // // Close the dropdown menu if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".all-over")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+
+      $(document).ready(function () {
+        $(".value-increment .value-button").click(function () {
+          var totalvalue = $(this).parent().find(".number").val();
+          if ($(this).hasClass("increase")) {
+            totalvalue++;
+            $(this).parent().find(".number").val(totalvalue);
+          }
+          if ($(this).hasClass("decrease")) {
+            if (totalvalue != 0) {
+              totalvalue--;
+              $(this).parent().find(".number").val(totalvalue);
+            }
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $("window").click(function (ev) {
+        $("#exampleModal2").modal("hide");
+      });
+
+      function showModal() {
+        document.getElementById("exampleModal2").modal("show");
+      }
+      function hideModal() {
+        document.getElementById("exampleModal2").modal("hide");
+      }
+    </script>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: "1247774946027467",
+          xfbml: true,
+          version: "v14.0",
+        });
+        //FB.AppEvents.logPageView();
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
